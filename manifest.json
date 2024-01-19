@@ -1,7 +1,7 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Qırımtatarca turn on for alerts.in.ua",
-    "version": "0.0",
+    "version": "0.3",
     "description": "''Qırımtatarca turn on for alerts.in.ua'' is extension that turns on Qırımtatarca for alerts.in.ua",
     "permissions": ["https://alerts.in.ua/"],
     "browser_action": {
