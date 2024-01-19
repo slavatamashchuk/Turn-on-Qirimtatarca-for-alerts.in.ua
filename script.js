@@ -2,6 +2,8 @@ const element = document.querySelectorAll('[aria-label="Qırımtatarca"][value="
 
 while(true) {
     element.forEach(element => {
-        element.removeAttribute('disabled');
+        if (element.hasAttribute('disabled')) {
+            element.removeAttribute('disabled');
+        }
     });
 }

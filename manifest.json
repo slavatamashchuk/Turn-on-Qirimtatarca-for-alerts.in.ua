@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Qırımtatarca turn on for alerts.in.ua",
-    "version": "0.3",
-    "description": "''Qırımtatarca turn on for alerts.in.ua'' is extension that turns on Qırımtatarca for alerts.in.ua",
+    "version": "0.4",
+    "description": "Turns on Crimean Tatar for alerts.in.ua",
     "permissions": ["https://alerts.in.ua/"],
     "browser_action": {
         "default_popup": "popup.html",
