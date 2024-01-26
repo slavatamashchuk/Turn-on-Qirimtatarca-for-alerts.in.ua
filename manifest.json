@@ -1,9 +1,11 @@
 {
     "manifest_version": 3,
     "name": "Qırımtatarca turn on for alerts.in.ua",
-    "version": "0.7",
+    "version": "1.0",
     "description": "Turns on Crimean Tatar for alerts.in.ua",
-    "permissions": ["https://alerts.in.ua/*"],
+    "host_permissions": [
+        "https://alerts.in.ua/*"
+    ],
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
@@ -23,8 +25,12 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://alerts.in.ua/*"],
-            "js": ["script.js"]
+            "matches": [
+                "https://alerts.in.ua/*"
+            ],
+            "js": [
+                "script.js"
+            ]
         }
     ]
 }
